@@ -82,7 +82,7 @@ Global ripple options can be specified by setting the `MAT_RIPPLE_GLOBAL_OPTIONS
 
 ```ts
 const globalRippleConfig: RippleGlobalOptions = {
-  disabled: true,
+  disabled: false,
   animation: {
     enterDuration: 300,
     exitDuration: 0
